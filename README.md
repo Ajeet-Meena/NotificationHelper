@@ -1,9 +1,7 @@
 # NotificationHelper
 Generate Custom Notification Easily.
 
-![Example Image 1] (http://imgur.com/AMxg2eh)
-![Example Image 2] (http://imgur.com/5x4y34S)
-
+![Example Image 1] (http://imgur.com/AMxg2eh.jpg)
 
 # Instructions
 
@@ -47,6 +45,8 @@ new NotificationHelper(this,notificationInfo).show();
 To handle notification content, positive button, negative button click we have to follow ActionExecuter pattern. As we cannot pass intent through notificationInfo object, ActionExecuter is only way to execute action such as opening a activity or fragment. Follow the ActionExecuter.java.
 
 **Showing Progress Bar**
+
+![Example Image 2] (http://imgur.com/5x4y34S.jpg)
 
 NotificationHepler can also be used to show progress on notifications. This can be used to show upload or download progress of a file as same way that play store show download progress. 
 
