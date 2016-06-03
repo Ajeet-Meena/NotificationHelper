@@ -1,8 +1,8 @@
 # NotificationHelper
 Generate Custom Notification Easily.
 
-![Example1] (http://imgur.com/AMxg2eh)
-![Ecample2] (http://imgur.com/5x4y34S)
+![Example Image 1] (http://imgur.com/AMxg2eh)
+![Example Image 2] (http://imgur.com/5x4y34S)
 
 
 # Instructions
@@ -42,7 +42,7 @@ notificationInfo.setNotificationId(1);
 new NotificationHelper(this,notificationInfo).show();
 ```
 
-** ActionExecuter** 
+**ActionExecuter** 
 
 To handle notification content, positive button, negative button click we have to follow ActionExecuter pattern. As we cannot pass intent through notificationInfo object, ActionExecuter is only way to execute action such as opening a activity or fragment. Follow the ActionExecuter.java.
 
